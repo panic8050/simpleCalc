@@ -6,9 +6,9 @@
     <string name="defaultValue">000000000</string>
     <string name="result">Result</string>
     <string name="button_clear">CE</string>
-    <string name="C">C</string>
-    <string name="backSlash">/</string>
-    <string name="mnoj">*</string>
+    <string name="c">C</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
@@ -16,6 +16,7 @@
     <string name="six">6</string>
     <string name="plus">+</string>
     <string name="one">1</string>
+    <string name="two">2</string>
     <string name="five">5</string>
     <string name="zero">0</string>
     <string name="three">3</string>

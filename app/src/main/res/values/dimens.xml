@@ -22,4 +22,8 @@
     <dimen name="text_size_xxh">18sp</dimen>
     <dimen name="text_size_xxxh">20sp</dimen>
 
+
+    <dimen name="margin_default_calc">8dp</dimen>
+    <dimen name="result_height">100dp</dimen>
+
 </resources>
