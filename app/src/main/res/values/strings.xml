@@ -1,4 +1,10 @@
 <resources>
+
     <string name="app_name">SimpleCalc</string>
+
     <string name="minus">-</string>
+
+    <string name="result">Result</string>
+    <string name="button_clear">CE</string>
+
 </resources>

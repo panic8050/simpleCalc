@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonNumberStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:paddingEnd">@dimen/padding_xh</item>
+        <item name="android:paddingStart">@dimen/padding_xh</item>
+        <item name="android:background">@drawable/bg_button_number</item>
+    </style>
+
 </resources>
