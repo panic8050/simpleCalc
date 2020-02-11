@@ -1,4 +1,4 @@
-package com.example.simplecalc;
+package com.example.simplecalc.model;
 
 public class OperationPlus implements Operation {
 

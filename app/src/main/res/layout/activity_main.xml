@@ -6,7 +6,7 @@
     android:paddingStart="@dimen/margin_default_calc"
     android:paddingTop="@dimen/margin_default_calc"
     android:paddingBottom="@dimen/margin_default_calc"
-    tools:context=".MainActivity"
+    tools:context=".view.MainActivity"
     tools:ignore="RtlSymmetry">
 
     <TextView
