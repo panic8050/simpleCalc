@@ -15,6 +15,8 @@ import com.example.simplecalc.model.OperationPlus;
 import com.example.simplecalc.utils.NumbersUtils;
 import java.util.Arrays;
 import java.util.List;
+
+import static com.example.simplecalc.utils.StringConstants.DOT;
 import static com.example.simplecalc.utils.StringConstants.EMPTY_STRING;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -30,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initViews();
     }
 
@@ -61,7 +62,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnDot: addDot(); break;
             case R.id.btnEquals: calculate(); break;
         }
-
     }
 
     private void initViews() {
@@ -99,22 +99,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void clear(){
-        enteredNumber.setText("");
-        resultText.setText("");
+        enteredNumber.setText(EMPTY_STRING);
+        resultText.setText(EMPTY_STRING);
         currentNumber = null;
         result = null;
     }
 
     private void removeLastNumber(){
-        if (!enteredNumber.getText().toString().isEmpty()) {
+        if (enteredNumber.getText().length() != 0) {
             String newText = enteredNumber.getText().toString().substring(0, enteredNumber.getText().length() - 1);
             enteredNumber.setText(newText);
         }
     }
 
     private void addDot(){
-        if (!enteredNumber.getText().toString().contains(".")) {
-            String str = enteredNumber.getText().toString() + ".";
+        if (!enteredNumber.getText().toString().contains(DOT)) {
+            String str = enteredNumber.getText().toString() + DOT;
             enteredNumber.setText(str);
         }
     }
