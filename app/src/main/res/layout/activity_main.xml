@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/Match"
     android:orientation="vertical"
@@ -12,32 +11,13 @@
 
     <TextView
         android:id="@+id/enteredNumbersTextView"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/result_height"
-        android:layout_marginEnd="@dimen/margin_default_calc"
-        android:layout_marginBottom="@dimen/margin_h"
-        android:background="@drawable/bg_field"
-        android:gravity="end|center_vertical"
-        android:padding="@dimen/padding_h"
-        android:paddingStart="@dimen/padding_xh"
-        android:paddingEnd="@dimen/padding_xh"
-        android:text="@string/defaultValue"
-        android:textColor="@color/colorWhite"
-        android:textSize="@dimen/text_size_xxxh" />
+        style="@style/TextResult"
+        tools:text="@string/defaultValue" />
 
     <TextView
         android:id="@+id/finalResultTextView"
-        android:paddingStart="@dimen/padding_xh"
-        android:paddingEnd="@dimen/padding_xh"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/result_height"
-        android:layout_marginEnd="@dimen/margin_default_calc"
-        android:background="@drawable/bg_field"
-        android:gravity="end|center_vertical"
-        android:padding="@dimen/padding_h"
-        android:text="@string/defaultValue"
-        android:textColor="@color/colorWhite"
-        android:textSize="@dimen/text_size_xxxh" />
+        style="@style/TextResult"
+        tools:text="@string/defaultValue" />
 
     <LinearLayout
         style="@style/Match"

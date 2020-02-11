@@ -10,7 +10,7 @@
 
     <style name="ButtonNumber">
         <item name="android:textSize">24sp</item>
-        <item name="android:background">@drawable/bg_button_number</item>
+        <item name="android:background">@drawable/selector_button_number</item>
         <item name="android:layout_marginEnd">@dimen/margin_default_calc</item>
         <item name="android:layout_marginTop">@dimen/margin_default_calc</item>
         <item name="android:layout_width">0dp</item>
@@ -34,7 +34,22 @@
         <item name="android:orientation">horizontal</item>
     </style>
     
-    <style name="TextViewHorizontal">
+    <style name="TextResult">
+        <item name="android:maxLength">10</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/result_height</item>
+        <item name="android:layout_marginEnd">@dimen/margin_default_calc</item>
+        <item name="android:layout_marginBottom">@dimen/margin_h</item>
+        <item name="android:background">@drawable/bg_field</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:padding">@dimen/padding_h</item>
+        <item name="android:paddingStart">@dimen/padding_xh</item>
+        <item name="android:paddingEnd">@dimen/padding_xh</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_xxxh</item>
+
+
 
     </style>
 
